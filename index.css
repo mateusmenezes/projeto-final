@@ -1,0 +1,239 @@
+/* 
+    Formatações gerais
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inria Sans", sans-serif;
+}
+:root{
+    font-size: 10px;
+    color: #0A001B;
+}
+.centraliza {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: #fefefe;
+}
+
+body, html {
+    font-size: 18px;
+}
+
+main {
+    background-color: #fefefe;
+}
+
+h1{
+    color: #0A001B;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+/* 
+    Header
+*/
+ul li a{
+    margin-right: 2rem;
+    font-size: 1.6rem;
+
+}
+
+header {
+    height: 6rem;
+    background-color: #0A001B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.color-bg h1 {
+    color: #fefefe;
+}
+
+
+.color-bg {
+    background-color: #0A001B;
+    color: #fefefe;
+}
+
+.container {
+    width: 92rem;
+    margin: 0 auto;
+}
+
+.banner {
+    height: 60rem;
+    width: 100%;
+    color: #fefefe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1)), url('./assets/background.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.auxiliar {
+    font-size: 3.2rem;
+    display: block;
+}
+
+.nome {
+    font-size: 9.6rem;
+}
+.sobre-mim p, .interesse p {
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.interesse {
+    height: 60rem;
+    background: linear-gradient(rgba(63, 63, 63, 0.7), rgb(217, 213, 213)), url('./assets/background2.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* 
+    Cabeçalhos
+*/
+
+
+.sobre-mim-titulo{
+    background: url("./assets/SOBREMIM.png") no-repeat;
+}
+
+.interesse-titulo {
+    background: url("./assets/INTERESSE.png") no-repeat;
+}
+
+.contato-titulo {
+    background: url("./assets/CONTATO.png") no-repeat;
+}
+.conhecimento-titulo {
+    background: url("./assets/CONHECIMENTO.png") no-repeat;
+}
+.depoimento-titulo {
+    background: url("./assets/DEPOIMENTOS.png") no-repeat;
+}
+.galeria-titulo {
+    background: url("./assets/GALERIA.png") no-repeat;
+}
+
+.sobre-mim-titulo, .interesse-titulo, .contato-titulo, .conhecimento-titulo, .depoimento-titulo, .galeria-titulo{
+    height: 9.6rem;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+
+/* 
+    Contato
+*/
+.btn-whatsapp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+    color: #0A001B;
+    background-color: #2b69fb;
+    width: 20rem;
+    margin: 4rem 0 1rem 0;
+}
+
+.btn-contato {
+    padding: 5px;
+    border-radius: 10px;
+    color: #0A001B;
+    background-color: #2b69fb;
+    width: 20rem;
+}
+
+.contatos {
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem;
+}
+
+/* .endereco {
+
+} */
+
+/* .btns {
+    border: 1px solid green;
+
+} */
+
+.barra {
+    border: 2px solid gray;
+    height: 30rem;
+}
+
+
+.ferramenta-cabecalho{
+    display: flex;
+    justify-content: space-between;
+}
+.barras-porcentagem {
+    display: block;
+    width: 300px;
+    border: 2px solid #0A001B;
+    margin-bottom: 3rem;
+}
+.ferramenta {
+    display: block;
+}
+
+.conhecimentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.cards {
+    display: flex;
+    justify-content: center;
+
+}
+
+.card {
+    background-color: #f78686;
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    margin: 4rem 2rem;
+}
+
+.projetos {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    border: 1px solid red;
+}
+
+
+footer {
+    padding: 4rem;
+    background-color: #0A001B;
+    color: #fefefe;
+    text-align: center;
+}
