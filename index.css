@@ -182,6 +182,8 @@ header {
     background-color: #2b69fb;
     width: 20rem;
     margin: 4rem 0 1rem 0;
+    border: 1px solid #fefefe;
+    cursor: pointer;
 }
 
 .btn-contato {
@@ -190,6 +192,9 @@ header {
     color: #0A001B;
     background-color: #2b69fb;
     width: 20rem;
+    border: 1px solid #fefefe;
+    color: #fefefe;
+    cursor: pointer;
 }
 
 .contatos {
@@ -199,8 +204,10 @@ header {
 }
 
 .barra {
-    border: 2px solid gray;
+    border: 2px solid rgb(255, 255, 255);
     height: 30rem;
+    border-radius: 10%;
+    box-shadow: 1px 1px 3px 1px #2b69fb;
 }
 
 
