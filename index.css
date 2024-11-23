@@ -44,7 +44,7 @@ ul {
 }
 
 .container {
-    width: 92rem;
+    width: 96rem;
     margin: 0 auto;
 }
 
@@ -279,13 +279,27 @@ header {
 /* 
     Galeria
 */
-.projetos {
-    display: flex;
-    justify-content: space-around;
-    border: 1px solid red;
+.galeria {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgb(0, 0, 0)), url('./assets/background4.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
+.projetos {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
 
+.projetos img {
+    width: 100%;
+    margin-bottom: 2rem;
+    box-shadow: 5px 5px 15px 1px rgb(6, 48, 145);
+}
+.parte-1 {
+    margin-right: 2rem;
+}
 /* 
     Rodape
 */
