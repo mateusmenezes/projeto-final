@@ -214,6 +214,12 @@ header {
 /* 
     Minhas habilidades
 */
+.conhecimento {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgb(0, 0, 0)), url('./assets/background3.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
 .ferramenta-cabecalho{
     display: flex;
@@ -222,7 +228,7 @@ header {
 .barras-porcentagem {
     display: block;
     width: 300px;
-    border: 2px solid #0A001B;
+    border: 2px solid #fefefe;
     margin-bottom: 3rem;
 }
 .ferramenta {
@@ -234,6 +240,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 }
 
 
