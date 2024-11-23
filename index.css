@@ -38,6 +38,15 @@ ul {
     list-style: none;
 }
 
+.color-bg {
+    background-color: #0A001B;
+    color: #fefefe;
+}
+
+.container {
+    width: 92rem;
+    margin: 0 auto;
+}
 
 
 /* 
@@ -63,16 +72,6 @@ header {
 }
 
 
-.color-bg {
-    background-color: #0A001B;
-    color: #fefefe;
-}
-
-.container {
-    width: 92rem;
-    margin: 0 auto;
-}
-
 .banner {
     height: 60rem;
     width: 100%;
@@ -87,6 +86,10 @@ header {
     background-attachment: fixed;
 }
 
+
+/*  
+    Quem eu sou
+*/
 .auxiliar {
     font-size: 3.2rem;
     display: block;
@@ -95,10 +98,33 @@ header {
 .nome {
     font-size: 9.6rem;
 }
+
+/* 
+    Sobre mim e interesse
+*/
 .sobre-mim p, .interesse p {
     text-align: center;
     padding: 4rem 2rem;
 }
+
+.btn-sobre {
+    padding: 0.5rem 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    color: #fefefe;
+    background-color: #2b69fb;
+    font-size: 1.6rem;
+}
+
+.sobre-mim span {
+    color: #2b69fb;
+    font-style: italic;
+    font-weight: bold;
+}
+
 
 .interesse {
     height: 60rem;
@@ -172,20 +198,15 @@ header {
     padding: 4rem;
 }
 
-/* .endereco {
-
-} */
-
-/* .btns {
-    border: 1px solid green;
-
-} */
-
 .barra {
     border: 2px solid gray;
     height: 30rem;
 }
 
+
+/* 
+    Minhas habilidades
+*/
 
 .ferramenta-cabecalho{
     display: flex;
@@ -209,6 +230,10 @@ header {
 }
 
 
+/* 
+    Depoimentos
+*/
+
 .cards {
     display: flex;
     justify-content: center;
@@ -223,13 +248,20 @@ header {
     margin: 4rem 2rem;
 }
 
+
+/* 
+    Galeria
+*/
 .projetos {
     display: flex;
-    /* flex-direction: column; */
     justify-content: space-around;
     border: 1px solid red;
 }
 
+
+/* 
+    Rodape
+*/
 
 footer {
     padding: 4rem;
