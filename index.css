@@ -9,7 +9,7 @@
 }
 :root{
     font-size: 10px;
-    color: #0A001B;
+    color: #fefefe;
 }
 .centraliza {
     display: flex;
@@ -31,7 +31,7 @@ main {
 }
 
 h1{
-    color: #0A001B;
+    color: #fefefe;
 }
 
 ul {
@@ -127,8 +127,8 @@ header {
 
 
 .interesse {
-    height: 60rem;
-    background: linear-gradient(rgba(63, 63, 63, 0.7), rgb(217, 213, 213)), url('./assets/background2.jpeg');
+    height: 40rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgb(0, 0, 0)), url('./assets/background2.jpeg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
