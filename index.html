@@ -17,11 +17,13 @@
     <header>
         <ul>
             <li>
-                <a href="#">Sobre mim</a>
-                <a href="#">Histórico</a>
-                <a href="#">Interesse</a>
-                <a href="#">Contato</a>
-                <a href="#">Redes Sociais</a>
+                <a href="#sobremim">Sobre mim</a>
+                <a href="#interesse">Interesse</a>
+                <a href="#contato">Contato</a>
+                <a href="#conhecimento">habilidades</a>
+                <a href="#contato">Redes Sociais</a>
+                <a href="#depoimento">Depoimentos</a>
+                <a href="#galeria">Galeria</a>
             </li>
         </ul>
     </header>
@@ -33,7 +35,7 @@
         </section>
 
         <!-- Inicio sessao sobre mim -->
-        <section class="color-bg sobre-mim">
+        <section class="color-bg sobre-mim" id="sobremim">
             <div class="container">
                 <div class="sobre-mim-titulo">
                     <h1>um pouco sobre quem eu sou</h1>
@@ -50,7 +52,9 @@
                     apreço pela <span>família</span> e <span>amigos</span>.
                 </p>
                 <div class="centraliza">
-                    <button type="button" class="btn-sobre">Saiba mais</button>
+                    <button type="button" class="btn-sobre">
+                        <a href="#interesse">Saiba mais</a>
+                    </button>
                 </div>
             </div>
         </section>
@@ -59,7 +63,7 @@
 
 
         <!-- Inicio sessao interesse -->
-        <section class="interesse">
+        <section class="interesse" id="interesse">
             <div class="container">
                 <div class="interesse-titulo">
                     <h1>Coisas que me interessam</h1>
@@ -78,7 +82,7 @@
 
 
         <!-- Inicio sessao contato -->
-        <section class="color-bg contato">
+        <section class="color-bg contato" id="contato">
             <div class="contato-titulo">
                 <h1>Fale comigo</h1>
             </div>
@@ -93,9 +97,13 @@
                 <div class="btns">
                     <h4>Entre em contato comigo</h4>
                     <button type="button" class="btn-whatsapp">
-                        <img src="./assets/whatsapp-btn.png" width="20px">
+                        <a href="https://wa.me/88997446522">
+                            <img src="./assets/whatsapp-btn.png" width="20px">
+                        </a>
                     </button>
-                    <button type="button" class="btn-contato">Nossos meios de comunicação</button>
+                    <button type="button" class="btn-contato">
+                        <a href="contato.html">Nossos meios de comunicação</a>
+                    </button>
                 </div>
             </div>
         </section>
@@ -104,7 +112,7 @@
 
 
         <!-- Inicio sessao conhecimento -->
-        <section class="conhecimento">
+        <section class="conhecimento" id="conhecimento">
             <div class="conhecimento-titulo">
                 <h1>Minhas habilidades</h1>
             </div>
@@ -164,7 +172,7 @@
 
 
         <!-- Inicio sessao depoimento -->
-        <section class="color-bg depoimento">
+        <section class="color-bg depoimento" id="depoimento">
             <div class="depoimento-titulo">
                 <h1>O que os clientes falam?</h1>
             </div>
@@ -188,7 +196,7 @@
 
                 <div class="card">
                     <img src="./assets/av2.png" width="100px">
-                    <h4>Mateus Menezes</h4>
+                    <h4>Mateus M.</h4>
                     <div class="avaliacoes">
                         <img src="./assets/estrela.png" width="15px">
                         <img src="./assets/estrela.png" width="15px">
@@ -222,7 +230,7 @@
 
 
         <!-- Inicio sessao galeria -->
-        <section class="galeria">
+        <section class="galeria" id="galeria">
             <div class="galeria-titulo">
                 <h1>Projetos feitos por mim</h1>
             </div>
